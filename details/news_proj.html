@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>디테일 페이지</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="/assets/img/favicon.png" rel="icon">
+  <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="/assets/css/style.css" rel="stylesheet">
+
+</head>
+<style>
+  ::-webkit-scrollbar {
+    width: 7px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    color: gray;
+  }
+</style>
+
+<body>
+
+  <main id="main">
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper" style="margin-top: 100px;">
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="/assets/img/portfolio/detail/뉴스프로젝트/메인.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="/assets/img/portfolio/detail/뉴스프로젝트/로그인.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="/assets/img/portfolio/detail/뉴스프로젝트/회원가입.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="/assets/img/portfolio/detail/뉴스프로젝트/뉴스.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="/assets/img/portfolio/detail/뉴스프로젝트/뉴스상세.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="/assets/img/portfolio/detail/뉴스프로젝트/뉴스로딩.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="/assets/img/portfolio/detail/뉴스프로젝트/뉴스요약.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="/assets/img/portfolio/detail/뉴스프로젝트/뉴스스크랩.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="/assets/img/portfolio/detail/뉴스프로젝트/내스크랩.png" alt="">
+                </div>
+                   
+              </div>
+              <div class="swiper-pagination" style="user-select: none;"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>프로젝트 개요</h3>
+              <ul>
+                <li><strong>프로젝트 이름: </strong> Quick Catch News</li>
+                <li><strong>프로젝트 기간: </strong> 2024.03.01~2024.03.20</li>
+                <li><strong>기능적 요소: </strong> <br />
+                  · 로그인 회원가입 및 회원정보수정<br>
+                  · 비밀번호 암호화를 통한 보안유지<br />
+                  · 사용자 키워드를 입력해 원하는 뉴스 확인 가능<br />
+                  · GPT API를 활용해 뉴스본문을 요약하고 관련된 키워드를 추천<br />
+                  · 사용자별로 관심있는 뉴스를 스크랩하고 이를 재확인 가능<br /></li>
+
+              </ul>
+              <div class="portfolio-description" style="overflow: auto;">
+                <h3>프로젝트 진행 사항</h3>
+                <ul>
+                  <li>· 프론트엔드 구현: HTML5, CSS3, JavaScript를 이용하여 사용자 인터페이스 구현</li>
+                  <li> · 데이터베이스 설계: 회원 정보, 뉴스 스크랩을 위한 데이터베이스 설계</li>
+                  <li> · 데이터 요청: 네이버 API에서 제목, 본문의 일부, 본문 링크, 작성일자 데이터를 가져옴</li>
+                  <li>· Python에서 Selenium을 활용해 동적 처리로 네이버 뉴스의 본문을 크롤링</li>
+                  <li>· 크롤링한 본문 내용을 GPT ap를 통해 요약, 관련 키워드를 추출</li>
+                  <li>· 백엔드 및 MVC 구현: Spring Framework 5와 Apache Tomcat 9를 사용하여 서버 사이드
+                    로직 및 MVC 아키텍처 구현</li>
+                  <li> · Flask를 활용해 app으로 만들고 Ajax로 내용을 요청받아 화면에 요약된 내용을 출력</li>
+                  <li>· Ajax를 활용해 버튼을 눌렀을 때 컨트롤러에서 스크랩 되도록 기능 구현</li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details Section -->
+
+  </main><!-- End #main -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="/assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="/assets/vendor/aos/aos.js"></script>
+  <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="/assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="/assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="/assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="/assets/js/main.js"></script>
+
+</body>
+
+</html>
